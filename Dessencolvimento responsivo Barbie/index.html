@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BARBIE</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        h1,
+        h2 {
+            color: rgb(228, 25, 136);
+        }
+
+        .containerImagem img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid rgb(212, 118, 170);
+        }
+
+        img {
+            width: 50%;
+            height: auto;
+            max-width: 100%;
+        }
+
+        @media screen and (max-width: 660px) {
+            .imagensDuplas {
+                flex-direction: column;
+                margin: auto;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Barbie</h1>
+    <h2>Esses são três filmes da Barbie</h2>
+
+    <div class="containerImagem">
+        <img src="img/barbie1.jpg" alt="Butterfly e a Princesa Fada">
+        <br>
+        <div class="imagensDuplas" style="display: flex;">
+            <img src="img/barbie2.jpg" alt="A Princesa e a PopStar">
+            <img src="img/barbie3.png" alt="O Segredo das Fadas">
+        </div>
+    </div>
+
+    <iframe width="100%" height="549" src="https://www.youtube.com/embed/A2bhCTbIJIM"
+        title="Barbie™ e O Segredo das Fadas | Filme Completo (HD) | Dublado" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+</body>
+
+</html>
